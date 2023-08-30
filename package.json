@@ -1,0 +1,30 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "10.x",
+    "css-loader": "^6.8.1",
+    "eslint": "7.x",
+    "eslint-config-airbnb-base": "14.x",
+    "eslint-plugin-import": "2.x",
+    "hint": "7.x",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "stylelint": "13.x",
+    "stylelint-config-standard": "21.x",
+    "stylelint-csstree-validator": "1.x",
+    "stylelint-scss": "3.x",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

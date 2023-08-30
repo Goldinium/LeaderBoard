@@ -1,0 +1,7 @@
+.main_display {
+    display: flex;
+}
+
+.test {
+    background-color: red;
+}
