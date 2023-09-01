@@ -51,7 +51,7 @@ input {
   margin-top: 5px;
   margin-left: 210px;
   border: 1px solid;
-  box-shadow: 4px 4px 1px #000000;
+  box-shadow: 4px 4px 1px #000;
   align-items: flex-end;
 }
 
@@ -61,7 +61,7 @@ input {
   margin-left: 70px;
   margin-top: 15px;
   border: 1px solid;
-  box-shadow: 4px 4px 1px #000000;
+  box-shadow: 4px 4px 1px #000;
 }
 
 #title_button_align {
