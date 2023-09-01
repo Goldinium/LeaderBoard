@@ -1,7 +1,24 @@
 import './style.css';
 
-import displayScores from './modules/scores.js';
-import gameApi from './modules/fetch.js';
+import getScores from './modules/getScores.js';
+import gameApiSend from './modules/sendScore.js';
 
-gameApi();
-displayScores();
+getScores();
+const submit = document.getElementById('submitbtn');
+
+let user = "";
+let score = "";
+
+submit.addEventListener('click', () => {
+     user = document.getElementById('player').value;
+     score = document.getElementById('score').value;
+    gameApiSend(user, score);
+});
+
+const downScores = document.getElementById('refreshBtn');
+downScores.addEventListener("click", () => {
+    getScores();
+});
+
+
+
