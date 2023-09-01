@@ -1,6 +1,6 @@
 const gameApiSend = async (user, score) => {
   try {
-    await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4clKnBGqzg8jtb9gbQYY/scores', {
+    await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/CdmmlqRyZ0rIHBCP4fyu/scores', {
       method: 'POST',
       body: JSON.stringify({
         user,
