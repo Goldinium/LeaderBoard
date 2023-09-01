@@ -46,10 +46,25 @@ input {
 }
 
 #submitbtn {
-  width: 60px;
+  width: 80px;
+  height: 30px;
   margin-top: 5px;
+  margin-left: 210px;
+  border: 1px solid;
+  box-shadow: 4px 4px 1px #000000;
+  align-items: flex-end;
 }
 
 #refreshBtn {
-  margin-bottom: 11px;
+  width: 80px;
+  height: 30px;
+  margin-left: 70px;
+  margin-top: 15px;
+  border: 1px solid;
+  box-shadow: 4px 4px 1px #000000;
+}
+
+#title_button_align {
+  display: flex;
+  flex-direction: row;
 }
